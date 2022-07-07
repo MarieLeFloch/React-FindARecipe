@@ -1,0 +1,23 @@
+@use '../../styles/vars';
+
+.app {
+  text-align: center;
+}
+
+.left__side {
+  background-color: vars.$second-color;
+  padding-bottom: 2em;
+}
+
+@media screen and (min-width: 768px) {
+  .app {
+    display: flex;
+  }
+
+  .left__side {
+    background-color: vars.$second-color;
+    padding: 0 2em;
+    width: 25%;
+    min-height: 100vh;
+  }
+}

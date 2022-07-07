@@ -1,0 +1,7 @@
+// Ajout build-in de sass pour utiliser la méthode color.scale
+// Afin de définir des dégradés standards
+@use "sass:color";
+
+$main-color: #fdf7eb;
+$second-color: #eebc8e;
+

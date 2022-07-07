@@ -62,6 +62,17 @@ function App() {
           loadRecipes={loadingRecipesFromAPI}
         />
         <NbResult data={nbResults} />
+        <div className="suggestions">
+          <h4>No ideas ? Let me give you some suggestions</h4>
+          <ul>
+            <li>Curry</li>
+            <li>Vegan</li>
+            <li>Chocolate</li>
+            <li>Summer</li>
+            <li>Pasta</li>
+            <li>...</li>
+          </ul>
+        </div>
       </header>
       <main className="right__side">
         <Results data={recipesList} />

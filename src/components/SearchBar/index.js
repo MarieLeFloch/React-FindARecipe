@@ -14,6 +14,7 @@ function SearchBar({ searchedValue, setSearchedValue, loadRecipes }) {
   // via la méthode setSearchedValue
   return (
     <Segment>
+      <h3>Search your future discovery</h3>
       <Form
         className="searchBar"
         onSubmit={

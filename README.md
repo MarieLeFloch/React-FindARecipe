@@ -1,7 +1,7 @@
 # FindARecipe
 A project done with ReactJS (in construction)
 
-▶️ Go and see : http://finda-recipe.surge.sh/
+▶️ Go and see : http://find-arecipe.surge.sh/
 
 Content: a list of recipes according to your research
 

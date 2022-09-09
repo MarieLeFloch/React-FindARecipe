@@ -32,8 +32,10 @@ function App() {
   // On crée une méthode pour l'appel à l'API
   // On la passe en props à notre composant SearchBar
   // On dynamise la requête selon la valeur cherchée par l'utilisateur
+  const apiKey = process.env.REACT_APP_API_KEY;
+  console.log(apiKey);
   const loadingRecipesFromAPI = () => {
-    axios.get(`https://api.spoonacular.com/recipes/complexSearch?query=${searchedValue}&apiKey=e0b7e4ce9a234704aa686c340f575b33`)
+    axios.get(`https://api.spoonacular.com/recipes/complexSearch?query=${searchedValue}&apiKey=${apiKey}`)
       .then(
         // Si promesse tenue, on recup le resultat
         (response) => {
